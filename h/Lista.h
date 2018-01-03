@@ -1,11 +1,12 @@
 #ifndef _lista_h_
 #define _lista_h_
-#pragma once
-#include "Symbol.h"
+
+#include "PCB.h"
+
 
 class Lista{
 	struct Elem{
-		Symbol* pod;
+		PCB* pod;
 		Elem* sled;
 		Elem(PCB *p,Elem* s=0){
 			pod=p;

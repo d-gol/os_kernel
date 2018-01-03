@@ -4,6 +4,8 @@
 
 #include "THREAD.H"
 
+class Semaphore;
+
 enum STATES { CREATED = 1, READY = 2, BLOCKED = 3, DONE = 4 };
 
 class PCB
@@ -30,6 +32,8 @@ public:
 	static PCB* running;
 
 	static void wrapper();
+
+	Semaphore* semWaitToComplete;
 
 };
 

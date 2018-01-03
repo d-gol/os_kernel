@@ -19,6 +19,8 @@ public:
 
 protected:
 	friend class PCB;
+	friend class Idle;
+	friend class TestTh;
 	Thread(StackSize stackSize = defaultStackSize, Time timeSlice = defaultTimeSlice);
 	virtual void run() {}
 
