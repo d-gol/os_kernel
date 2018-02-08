@@ -5,7 +5,7 @@
 - Providing environment for multhithreading programming, similar to Java.
 - A programmer can develop programs that have multiple threads.
 To do so, the programmer needs the implement a class that extends class Thread and implement the run() method of it.
-Programmer can say t.waitToComplete(), meaning the current thread needs to wait for thread t to finich before it can proceed.
+Programmer can say t.waitToComplete(), meaning the current thread needs to wait for thread t to finish before it can proceed.
 - Thread can also be blocked on event, not only other thread.
 Event is connected to the interrupt routine (for keyboard, mouse, etc)
 Programmer can say event.wait() in the running thread.
