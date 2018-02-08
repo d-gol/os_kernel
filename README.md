@@ -11,7 +11,7 @@ Event is connected to the interrupt routine (for keyboard, mouse, etc)
 Programmer can say event.wait() in the running thread.
 Once the event has occured, all threads waiting on it can continue (are unblocked).
 
-API: 
+### API: 
 - Class Thread: 
   - start() 
   - waitToComplete()
