@@ -13,13 +13,13 @@ Once the event has occured, all threads waiting on it can continue (are unblocke
 
 API: 
 - Class Thread: 
-start() 
-waitToComplete()
-run() - to implement! (virtual)
+  - start() 
+  - waitToComplete()
+  - run() - to implement! (virtual)
 
 - Class Event: 
-Event(ivtNo - number of the interrupt routine, keyboard, mouse etc)
-wait()
+  - Event(ivtNo - number of the interrupt routine, keyboard, mouse etc)
+  - wait()
 
 ## How is it implemented? ##
 This project was implemented in C++. To compile, please use Turbo C.
